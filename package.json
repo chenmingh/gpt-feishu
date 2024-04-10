@@ -1,0 +1,26 @@
+{
+    "name": "gpt-feishu",
+    "version": "1.0.0",
+    "description": "",
+    "main": "./dist/app",
+    "type": "module",
+    "scripts": {
+        "start": "npm run build && cd dist && node app -h 127.0.0.1 -p 3000",
+        "build": "node_modules\\.bin\\tsc"
+    },
+    "author": "cmh",
+    "license": "ISC",
+    "dependencies": {
+        "@larksuiteoapi/node-sdk": "^1.26.0",
+        "@types/minimist": "^1.2.5",
+        "chatgpt": "^5.2.5",
+        "http": "^0.0.1-security",
+        "minimist": "^1.2.8",
+        "node-fetch": "^3.3.2",
+        "typescript": "^5.4.4"
+    },
+    "devDependencies": {
+        "@types/node": "^20.12.5",
+        "@types/reflect-metadata": "^0.1.0"
+    }
+}
