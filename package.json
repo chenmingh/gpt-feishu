@@ -15,7 +15,6 @@
         "@types/minimist": "^1.2.5",
         "chatgpt": "^5.2.5",
         "http": "^0.0.1-security",
-        "minimist": "^1.2.8",
         "node-fetch": "^3.3.2",
         "typescript": "^5.4.4"
     },
